@@ -21,3 +21,5 @@ class Members(models.Model):
     
     def __str__(self):
         return [{"firstname":self.firstname, "secondname":self.secondname, "Phone_no": self.phone_no}]
+    
+# class Contri
