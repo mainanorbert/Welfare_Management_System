@@ -13,3 +13,8 @@ class Contributions(models.Model):
         if not self.contribution_number:
             self.contribution_number = random.randint(100, 10000)
         super().save(*args, **kwargs)
+        
+class AllContribution(models.Model):
+    cont_id = models.IntegerField(unique=False)
+    amount = models.IntegerField(unique=False, null=True, blank=True)
+    member_no = models.CharField(max_length=255, blank=True, null=True)

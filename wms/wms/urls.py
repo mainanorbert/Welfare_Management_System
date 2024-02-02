@@ -26,12 +26,8 @@ router = routers.DefaultRouter()
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("nober/", include('app1.urls')),
-    # path("api/", include(router.urls))
     path("api/", include('app1.urls')),
-    path("api/", include('contributions.urls')),
-    # re_path('login/', auth_views.login),
-    # re_path('/signup/', auth_views.signup),
-    # re_path('token/', include(router.urls)),
+    path("api/cont/", include('contributions.urls')),
      path('login', auth_views.login, name='login'),
      path('signup', auth_views.signup, name='signup'),
      
