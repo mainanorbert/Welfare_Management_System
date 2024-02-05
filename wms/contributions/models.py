@@ -17,4 +17,4 @@ class Contributions(models.Model):
 class AllContribution(models.Model):
     cont_id = models.IntegerField(unique=False)
     amount = models.IntegerField(unique=False, null=True, blank=True)
-    member_no = models.CharField(max_length=255, blank=True, null=True)
+    member_no = models.CharField(unique=False, max_length=255, blank=True, null=True)
