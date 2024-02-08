@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "rest_framework",
     'rest_framework.authtoken',
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -147,7 +148,18 @@ CORS_ALLOW_CREDENTIALS = True
 
 
 # # Ensuring react framework is not blocked
-# REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES': [
-#     'rest_framework.permission.AllowAny'
-# ]}
+REST_FRAMEWORK = {
+                  
+        'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+                  }
+DJOSER = {
+    "USER_ID_FIELD": "username"
+}
+
 # CORS_ORIGIN_ALLOW_ALL = True

@@ -30,5 +30,8 @@ urlpatterns = [
     path("api/cont/", include('contributions.urls')),
      path('login', auth_views.login, name='login'),
      path('signup', auth_views.signup, name='signup'),
+    #  url(r'^auth/', include('djoser.urls'))
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
      
 ]
