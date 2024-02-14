@@ -21,10 +21,6 @@ class AllContributions(viewsets.ModelViewSet):
     queryset = AllContribution.objects.all()
     serializer_class = AllContributionsSerializers
     permission_classes = [AllowUnauthenticated | permissions.IsAuthenticated]
-
-   
-
-    
     
     @action(detail=True, methods=['get'])
     def contribution_list(self, req, pk=None):

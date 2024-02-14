@@ -33,5 +33,6 @@ urlpatterns = [
     #  url(r'^auth/', include('djoser.urls'))
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
+    path("acc/", include('accountings.urls')),
      
 ]
