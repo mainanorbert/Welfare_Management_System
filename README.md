@@ -1,5 +1,3 @@
-The django backend is in the folder `wms` above, click the folder to get full readme documentation
-
 # Welfare Management System
 
 ## Overview
@@ -11,6 +9,7 @@ Transparency and accountability have been my driving force in learning SE. Havin
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
+- [More](#more)
 
 ## Installation
 
@@ -25,3 +24,7 @@ After installing:
 2. Intall all packages from [requirement](https://github.com/mainanorbert/Welfare_Management_System/blob/main/wms/requirements.txt) file
 3. Run command `python manage.py runserver` to start server.
 4. The project is only for backend, install [frontend](https://github.com/mainanorbert/wms-frontend/tree/main/nober#readme) to see the entire project
+### More
+ - Read [blog](https://gist.github.com/mainanorbert/e7ff15c322f1c2bfa6d6a957750f81b5) on this project
+ - Hosted project can be found [Here](https://wms.nobertechx.xyz/)
+ - [Twitter](https://twitter.com/mainanorbert2)
