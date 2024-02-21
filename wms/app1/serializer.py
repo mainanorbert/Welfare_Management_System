@@ -8,6 +8,9 @@ class toDoSerializer(serializers.ModelSerializer):
         fields = ("id", "title", "completed")
         
 class MembersSerializer(serializers.ModelSerializer):
+    """
+    Serializer for the Members model, serializing all fields.
+    """
     class Meta:
         model = Members
         fields="__all__"

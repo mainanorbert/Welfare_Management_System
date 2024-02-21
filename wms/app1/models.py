@@ -9,6 +9,9 @@ class TodoItem(models.Model):
         return self.title
     
 class Members(models.Model):
+    """
+    Represents a member with details such as first name, second name, email, phone number, member number, status, ID number, and registration amount.
+    """
     firstname = models.CharField(max_length=50)
     secondname = models.CharField(max_length=50)
     email = models.EmailField(unique=True, blank=True, null=True)
@@ -20,6 +23,8 @@ class Members(models.Model):
     
     
     def __str__(self):
+        """
+        Returns a dictionary representation of the member's details.
+        """
         return [{"firstname":self.firstname, "secondname":self.secondname, "Phone_no": self.phone_no}]
     
-# class Contri

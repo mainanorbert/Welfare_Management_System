@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_4h%)u9y3jldrb^fu3#l!i8ki40$janq^ohn3^xk#zz4y0dlk=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -89,6 +89,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'customer_data',
+        # 'NAME': 'wms',
         'USER': 'mainanorbert',
         'PASSWORD': 'pope@2019',
         'HOST': 'localhost',  # Or your MySQL server address
@@ -144,6 +145,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # )
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Add your React frontend address here
+    # 'https://wms.nobertechx.xyz',
 ]
 CORS_ALLOW_CREDENTIALS = True
 
