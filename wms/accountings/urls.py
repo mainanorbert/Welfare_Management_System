@@ -20,12 +20,10 @@ from .views import SumAmounts, ContributionIdView
 from django.urls import include
 from rest_framework.routers import DefaultRouter
 
-
 router = DefaultRouter()
 
 router.register(r"accounting", SumAmounts, basename="accounting")
 router.register(r'perId', ContributionIdView, basename="perId")
-
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
