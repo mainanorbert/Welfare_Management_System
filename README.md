@@ -22,6 +22,6 @@ https://github.com/mainanorbert/Welfare_Management_System.git
 
 After installing:
 1. Run command `cd wms`
-2. Intall all packages for the project
+2. Intall all packages from [requirement](https://github.com/mainanorbert/Welfare_Management_System/blob/main/wms/requirements.txt) file
 3. Run command `python manage.py runserver` to start server.
 4. The project is only for backend, install [frontend](https://github.com/mainanorbert/wms-frontend/tree/main/nober#readme) to see the entire project
