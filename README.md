@@ -16,7 +16,7 @@ Transparency and accountability have been my driving force in learning SE. Havin
 
 1. Clone the repository to your local machine.
    ```sh
-https://github.com/mainanorbert/Welfare_Management_System.git
+   https://github.com/mainanorbert/Welfare_Management_System.git
 
 ## Usage
 
