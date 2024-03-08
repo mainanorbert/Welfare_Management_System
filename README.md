@@ -20,7 +20,7 @@ Transparency and accountability have been my driving force in learning SE. Havin
 ## Installation-Frontend
 1. Clone the repository to your local machine.
    ```sh
-   https://github.com/mainanorbert/Welfare_Management_System.git
+   git clone https://github.com/mainanorbert/Welfare_Management_System.git
 2. Navigate into the Project Directory
    ```sh
    cd wms-frontend
