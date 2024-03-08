@@ -35,25 +35,25 @@ Transparency and accountability have been my driving force in learning SE. Havin
    ```sh
    http://localhost:5173
 
-## Intallation-Backend
+## Installation-Backend
 1. Clone the Repository
-- skip this step if alread clone when installing frontendd
+- skip this step if you already cloned repository when installing frontend
    ```sh
    git clone https://github.com/mainanorbert/Welfare_Management_System.git
 2. Navigate into the Project Directory
-   ``sh
+   ```sh
    cd wms
 3. Install Dependencies (optional, if using a virtual environment)
    ```sh
    python -m venv venv
    source venv/bin/activate  # For Linux/Mac
    . .\venv\Scripts\activate  # For Windows
-4. install the packages with other dependencies
-   ``sh
+4. Install the packages with other dependencies
+   ```sh
    pip install -r requirements.txt
 5. Apply Migrations
-   ``sh
-   python manage.py migrate
+   ```sh
+   python3 manage.py migrate
 6. Create a Superuser (if needed)
    ```sh
    python manage.py createsuperuser
