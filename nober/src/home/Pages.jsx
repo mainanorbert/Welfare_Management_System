@@ -34,7 +34,7 @@ const Pages = () => {
               <p className='rounded-full border  border-color-white md:py-2 p-1 border-2 text-center'>2000</p>
               <p className='par text-center'>Registered</p>
             </div>
-            <div className='flex justify-start md:mt-5 mt-8  hover:text-neutral-200 space-x-1 font-bold  bg-blue-900 rounded-xl text-neutral-400'>
+            <div className='flex justify-start md:mt-5 mt-8  hover:text-neutral-200 space-x-1 font-bold  bg-blue-700 rounded-xl text-neutral-400'>
 
               <p className='py-3 p-1 text-center'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="blue" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
