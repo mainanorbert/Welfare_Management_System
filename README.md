@@ -9,9 +9,9 @@ Transparency and accountability have been my driving force in learning SE. Havin
 - [Installation Backend](#Installation-Backend)
 - [Configurations](#Configurations)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [More](#more)
+- [Contributing](#Contribution)
+- [License](#License)
+- [Links](#Lore)
 
 ## Technologies-used
 - [React-Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
@@ -69,9 +69,18 @@ After installing and running both frontend and backend, other configurations inc
  
 
 ## Usage
-
-After installing:
-### More
- - Read [blog](https://gist.github.com/mainanorbert/e7ff15c322f1c2bfa6d6a957750f81b5) on this project
- - Hosted project can be found [Here](https://wms.nobertechx.xyz/)
+- After installing, use the navbar and other links to view different features:
+- To have full access to
+- To have full access to the system, contact developer via:
+	- [Twitter](https://twitter.com/mainanorbert2)
+	- [LinkedIn](https://www.linkedin.com/in/norbert-osiemo-0256a4144/)
+	- [Email](https://mail.google.com/mail/u/0/#inbox)
+- Access the hosted project: [Welfare Management System](http://nobertechx.tech/)
+## Contribution
+## License
+## Links
+- [Nobertechx Blog](https://www.nobertechx.xyz/)
+- [LinkedIn](https://www.linkedin.com/in/norbert-osiemo-0256a4144/)
+ - [Article on Project](https://gist.github.com/mainanorbert/e7ff15c322f1c2bfa6d6a957750f81b5) on this project
+ - [Welfare Management System](https://wms.nobertechx.xyz/)
  - [Twitter](https://twitter.com/mainanorbert2)
