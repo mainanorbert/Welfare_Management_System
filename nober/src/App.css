@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  width: 40%;
+
+}
+
+.th {
+  background-color: green;
+}
+
+.td {
+  border-right: blue;
+  background-color: blu;
+}
+
+.tr {
+  border: blue;
+  background-color: palegreen;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes moveWords {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(50px);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  75% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(150px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  @keyframes moveWords {
+    0% {
+      transform: translateX(0);
+    }
+  
+    25% {
+      transform: translateX(50px);
+    }
+  
+    50% {
+      transform: translateX(60px);
+    }
+  
+    75% {
+      transform: translateX(50px);
+    }
+  
+    100% {
+      transform: translateX(50px);
+    }
+  }
+
+  
+}
+
+.move-words {
+  display: inline-block;
+  animation: moveWords 4s infinite linear;
+}
+
+
+
+.wel-bg {
+  background: url('./images/dis3.webp') no-repeat;
+  background-size: 70%;
+  
+
+}
+
+.well {
+  background: url('./images/well.jpg') no-repeat;
+  background-size: 70%;
+}
+@media only screen and (max-width: 600px) {
+  .wel-bg {
+    background-size: 80%;
+  background: url('./images/dis3.webp') no-repeat;
+
+  }
+
+}
+
+.par {
+  height: 50px;
+  line-height: 50px;
+}
+
+.cont {
+  height: 100px;
+  line-height: 100px;
+}
+
+.con {
+  line-height: 40px;
+}
+
+
+
+
+table {
+  width: 40%;
+
+}
+
+.th {
+  background-color: green;
+}
+
+.td {
+  border-right: blue;
+  background-color: blu;
+}
+
+.tr {
+  border: blue;
+  background-color: palegreen;
+}

@@ -31,8 +31,8 @@ urlpatterns = [
      path('login', auth_views.login, name='login'),
      path('signup', auth_views.signup, name='signup'),
     #  url(r'^auth/', include('djoser.urls'))
-    path('auth/', include('djoser.urls')),
-    path('auth/', include('djoser.urls.authtoken')),
-    path("acc/", include('accountings.urls')),
+    path("api/auth/", include('djoser.urls')),
+    path("api/auth/", include('djoser.urls.authtoken')),
+    path("api/acc/", include('accountings.urls')),
      
 ]

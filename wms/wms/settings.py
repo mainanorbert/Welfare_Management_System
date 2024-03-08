@@ -140,9 +140,9 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # White listing frontend
-# CORS_ORIGIN_WHITELIST = (
-#     "http://localhost:3000"
-# )
+CORS_ORIGIN_WHITELIST = (
+    "http://localhost:3000"
+)
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Add your React frontend address here
     # 'https://wms.nobertechx.xyz',
@@ -167,4 +167,4 @@ DJOSER = {
     "USER_ID_FIELD": "username"
 }
 
-# CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = True
