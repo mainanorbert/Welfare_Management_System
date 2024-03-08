@@ -7,6 +7,7 @@ Transparency and accountability have been my driving force in learning SE. Havin
 - [Technologies Used](#Technologies-Used)
 - [Installation Frontend](#Installation-Frontend)
 - [Installation Backend](#Installation-Backend)
+- [Configurations](#Configurations)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -30,17 +31,46 @@ Transparency and accountability have been my driving force in learning SE. Havin
 4. Start the Development Server
    ```sh
    npm run dev
+5. Access the Project in the Browser
+   ```sh
+   http://localhost:5173
 
-# Intallation-Backend
+## Intallation-Backend
+1. Clone the Repository
+- skip this step if alread clone when installing frontendd
+   ```sh
+   git clone https://github.com/mainanorbert/Welfare_Management_System.git
+2. Navigate into the Project Directory
+   ``sh
+   cd wms
+3. Install Dependencies (optional, if using a virtual environment)
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # For Linux/Mac
+   . .\venv\Scripts\activate  # For Windows
+4. install the packages with other dependencies
+   ``sh
+   pip install -r requirements.txt
+5. Apply Migrations
+   ``sh
+   python manage.py migrate
+6. Create a Superuser (if needed)
+   ```sh
+   python manage.py createsuperuser
+7. Run the Development Server
+   ```sh
+   python3 manage.py runserver
 
+## Configuration
+After installing and running both frontend and backend, other configurations include:
+1. updating `AxiosClient.jsx` file of the react frontend to ensure baseURL matches you backend url
+2. Updating `wms/settings.py` of the django backend to ensure that `CORS_ALLOWED_ORIGINS` include your local frontend developement server url e.g., `http://localhost:5173`
+   
+ 
 
 ## Usage
 
 After installing:
-1. Run command `cd Welfare_Management_System/wms` to move to project directory
-2. Intall all packages from [requirement](https://github.com/mainanorbert/Welfare_Management_System/blob/main/wms/requirements.txt) file
-3. Run command `python manage.py runserver` to start server.
-4. The project is only for backend, install [frontend](https://github.com/mainanorbert/wms-frontend/tree/main/nober#readme) to see the entire project
 ### More
  - Read [blog](https://gist.github.com/mainanorbert/e7ff15c322f1c2bfa6d6a957750f81b5) on this project
  - Hosted project can be found [Here](https://wms.nobertechx.xyz/)
