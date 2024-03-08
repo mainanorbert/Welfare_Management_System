@@ -29,12 +29,12 @@ const Pages = () => {
               </svg>
               </div>
             </h3>
-            <div className='flex p-1 justify-start space-x-4 border hover:text-neutral-300 md:text- font-bold items-align bg-blue-700 text-neutral-400'>
+            <div className='flex p-1 justify-start space-x-4 border hover:text-neutral-200 md:text- font-bold items-align bg-blue-700 text-neutral-300'>
               <p className='par'>Over</p>
               <p className='rounded-full border  border-color-white md:py-2 p-1 border-2 text-center'>2000</p>
               <p className='par text-center'>Registered</p>
             </div>
-            <div className='flex justify-start md:mt-5 mt-8  hover:text-neutral-200 space-x-1 font-bold  bg-blue-700 rounded-xl text-neutral-400'>
+            <div className='flex justify-start md:mt-5 mt-8  hover:text-neutral-200 space-x-1 font-bold  bg-blue-700 rounded-xl text-neutral-300'>
 
               <p className='py-3 p-1 text-center'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="blue" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
@@ -56,7 +56,7 @@ const Pages = () => {
             <h3 className='text-center  bg flex justify-center p-1 text-neutral-400 font-bold '>
               <img width='' src={donate} alt="" /></h3>
             <div>
-              <div className='list-disc px-1 font-bold text-sm space-y-2 list-disc text-neutral-200'>
+              <div className='list-disc px-1 font-bold text-sm space-y-2 list-disc text-neutral-300 hover:text-neutral-200'>
                 <li>Donation by Grants</li>
                 <li>Give Cash to Support a Life</li>
                 <li>Give Cash in Hard Times</li>
@@ -78,7 +78,7 @@ const Pages = () => {
             <img src={mem} alt="" />
           </h3>
 
-          <div className='list-disc p-2 mb- md:mb- bg-gre0 text-sm space-y-1 font-bold text-neutral-200'>
+          <div className='list-disc p-2 mb- md:mb- bg-gre0 text-sm space-y-1 font-bold text-neutral-300 hover:text-neutral-200'>
             <li>Accountability</li>
             <li>No handling of Cash</li>
             <li>Access to financial Records</li>
