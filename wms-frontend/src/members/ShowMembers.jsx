@@ -13,8 +13,7 @@ const ShowMembers = () => {
   const [showEdit, setShowEdit] = useState(false)
   const [currentPage, setCurrentPage] = useState(1)
   const noRows = 5
-  let i = 0
-
+ 
   const { token, user } = useAuth()
   console.log('token', token)
 
@@ -62,9 +61,9 @@ const ShowMembers = () => {
         </thead>
         <tbody>
           {
-            currentMembers.map((member) => (
+            currentMembers.map((member, index) => (
               <tr className='border md:text-sm text-xs text-neutral-200 font-light ' key={member.id}>
-                <td className='border-r pl-1 text-neutral-200'>{i += 1}.</td>
+                <td className='border-r pl-1 text-neutral-200'>{startIndex + index + 1}.</td>
                 <td className='border-r pl-1'>{member.member_no}</td>
                 <td className='border-r pl-1'>{member.firstname}</td>
                 <td className='border-r pl-1'>{member.secondname}</td>
