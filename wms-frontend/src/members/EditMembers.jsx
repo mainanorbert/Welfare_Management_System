@@ -80,13 +80,13 @@ const EditMembers = () => {
     return (
 
 
-        <div className='overflow-scroll'>
-       <div className='mb-2'> <NavBar/></div>
+        <div className='overflow-scrol'>
+       {/* <div className='mb-2'> <NavBar/></div> */}
 
-            <div className='w-full flex justify-center h-screen  '>
+            <div className='w-full flex justify-center hscreen  '>
                 <form
                     onSubmit={handleSubmit}
-                    className=' md:w-4/12 w-10/12 p-2 border  bg-purple-700'>
+                    className=' md:w-6/12 w-10/12 p-2 border  bg-purple-700'>
                     {isErr ? <div className='bg-red-700 p- rounded text- a text-white text-center w-full'>
                     A Required Field Empty</div> : sub ?
                     <div className='bg-green-400 p- rounded text- a text-white text-center w-full'>Updated Successfully</div>:''}
