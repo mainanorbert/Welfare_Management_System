@@ -18,6 +18,7 @@ import SubmitDetails from './mpesa/SubmitDetails';
 import Landing from './others/Landing';
 import Donations from './donations/Donations';
 import Accounting from './accounting/Accounting';
+import ManageMembers from './members/ManageMembers';
 
 const App = () => {
 
